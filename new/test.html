@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>ENGL393 Final Project</title>
+    <script src="mapdata.js"></script>
+    <script src="usmap.js"></script>
+  </head>
+  <body>
+    <div style="padding: 1rem; font-family: Arial, sans-serif">
+      <h1 style="margin-bottom: -0.5rem">Election Map 2024, Explained</h1>
+      <div
+        class="flex-container"
+        style="display: flex; flex-direction: row; height: calc(100vh - 2rem)"
+      >
+        <div style="max-width: 40vw; padding: 0.5rem">
+          <p>
+            This website is made by Jason Yu for his ENGL393 Final Project.
+            Information presented on this website is meant to solely be
+            informational and not political.
+          </p>
+          <h2>Overview of the Presidential Election Process</h2>
+          <p>
+            The election process starts in the spring of the year before an
+            election. Candidates will register with the Federal Election
+            Comission to run and announce their intentions to run. Then, primary
+            and caucus debates take place. Following this, States and parties
+            hold presidential primaries and caucuses. After that, parties will
+            hold nominating conventions to choose their candidates. Then,
+            candidates will participate in presidential debates. Finally,
+            election day is in early November of election year.
+          </p>
+          <h2>Requirements for Presidential Candidates</h2>
+          <p>
+            (1) Be a natural-born citizen of the United States, (2) Be at least
+            35 years old, (3) Have been a resident of the United States for 14
+            years
+          </p>
+          <h2>Primaries, Caucuses, and National Conventions</h2>
+          <p>
+            6-9 months before a presidential election, most states will host
+            primaries. Here, primary voters anonymously choose their preferred
+            canddiate. Several states hold caucuses, which are meetings run by
+            political parties held at the county, district, or precinct level.
+            How these states choose their candidates vary, some by secret
+            ballot, others by group. Once delegates are selected by either
+            method, they go on to represent their state at the national
+            convention, for their respective party. At the national convention,
+            a delegate gets voted to become their party's presidential nominee.
+            This is also where the nominee will announce their running mate, who
+            would become the Vice President-elect upon winning the election.
+          </p>
+          <h2>General Election and the Electoral College</h2>
+          <p style="padding-bottom: 2rem">
+            Here, citizens will vote on who they would like to be president.
+            But, it's actually the electoral college who decides which candidate
+            becomes president. This is an old tradition set by the United States
+            in 1787. Each state has a set number of electoral votes based on
+            population, which you can see in the interactive map on your right.
+            Most states' electors will vote based on whoever wins the majority
+            in their state. This means if a candidate wins the majority of
+            California for example, California will cast their electoral votes
+            for that candidate. Whoever has the most electoral college votes at
+            the end then becomes President-elect.
+          </p>
+        </div>
+        <div
+          style="
+            max-width: 60vw;
+            padding: 0.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          "
+        >
+          <!-- Ensure map is visible -->
+          <div id="map" style="width: 100%; height: 75%"></div>
+          <p style="max-width: 50vw">
+            Credit to <a href="https://www.usa.gov/election">usa.gov</a> for
+            supplying accurate information on how elections work, and credit to
+            <a href="https://simplemaps.com/">Simplemaps.com</a> for providing
+            heavy inspiration for this website's interactive election map.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
